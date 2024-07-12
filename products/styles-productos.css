@@ -23,13 +23,11 @@ body{
 
 #header-barra{
     background-color: rgb(6, 6, 6); 
-    gap: 1rem;
     display: flex;
+    gap: 1rem;
     align-items: center;
     height: 7.5vh;
     padding: 1rem 2rem;
-    top: 0;
-    left: 0;
     width: 100%;
     box-shadow: 1rem .7rem .7rem rgb(0, 0, 0);
 }

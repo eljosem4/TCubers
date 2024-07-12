@@ -11,6 +11,8 @@
 main{
     display: flex;
     align-items: center;
+    overflow-x: hidden;
+    padding: 1rem 2rem;
 }
 body{
     background-color: rgb(10, 10, 10);
@@ -18,18 +20,18 @@ body{
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    gap: 1rem;
+
 }
 
 #header-barra{
-    background-color: rgb(6, 6, 6); 
-    gap: 1rem;
     display: flex;
+    gap: 1rem;
     align-items: center;
     height: 7.5vh;
     padding: 1rem 2rem;
-    top: 0;
-    left: 0;
     width: 100%;
+    background-color: rgb(6, 6, 6); 
     box-shadow: 1rem .7rem .7rem rgb(0, 0, 0);
 }
 
@@ -97,11 +99,17 @@ body{
     display: flex;
     align-items: center;
     flex-direction: row;
-    color: black;
-    padding: 4rem 8rem;
+    padding: 1rem 3rem;
 }
 
 @media screen and (max-width:1024px){
+    #header-barra{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: calc(100% + 2rem);
+        
+    }
     #section-principal{
         flex-direction: column;
         padding: 1rem;
@@ -113,6 +121,12 @@ body{
 
     #section-principal h2{
         padding: 0;
+    }
+
+    #section-principal p{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 }
 
@@ -186,9 +200,11 @@ body{
 #section-principal p{
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    text-align: flex-end;
     flex-direction: row;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background: linear-gradient(85deg, rgba(33,255,0,1) 20%, rgba(255,0,0,1) 47%, rgba(0,16,255,1) 96%);
     -webkit-text-fill-color:transparent;
     background-clip: text;
