@@ -38,9 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     
-}
-
-#header-barra nav{
+}#header-barra nav{
     display: flex;
     flex: 1;
     justify-content: flex-end;
