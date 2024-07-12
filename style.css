@@ -188,7 +188,7 @@ body{
 #section-principal p{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: row;
     font-size: 2rem;
     background: linear-gradient(85deg, rgba(33,255,0,1) 20%, rgba(255,0,0,1) 47%, rgba(0,16,255,1) 96%);

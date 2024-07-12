@@ -103,7 +103,7 @@ body{
 #section-principal form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 1rem;
     padding: 1rem 2rem;
 }
@@ -133,13 +133,14 @@ body{
 #escribe-mensaje{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
     padding: 1rem 2rem;
     gap: 1rem;
 }
 
 #cuadro-escribir-mensaje{
     display: flex;
+    align-items: center;
     width: 30rem;
     height: 10rem;
 }
