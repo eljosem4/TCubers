@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranga:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    background-image: url(./assets/background.jpg);
+    background-size: calc(100% - 1rem);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    padding: 5rem;
+}
+
+/*Contenedor*/
+#container-1{
+    background: linear-gradient(rgba(62, 63, 66, 0.45), rgba(50, 56, 71, 0.45));
+    display: flex;
+    border: 1px solid ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    width: calc(100% - 1rem);
+    gap: 1rem;
+}
+
+/*Titulo*/
+
+#titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    
+}
+
+#titles h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: rgb(6, 6, 6);
+    background-clip: text;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*Login/Register*/
+
+#login-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/*Formulario Login/Register*/
+#email-pass{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+#email-pass label{
+    display: flex;
+    gap: 1rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: rgb(6, 6, 6);
+}
+#email-pass input:hover{
+    transform: scale(1 ,.9);
+}
+
+#email-pass input{
+    display: flex;
+    background-color: transparent;
+    padding: .5rem;
+    border: 1px solid rgb(6, 6, 6);
+    border-radius: 1px;
+    width: 20rem;
+    height: 1.5rem;
+}
+
+/*Botones redireccionales*/
+
+#btn-login_register{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#btn-login_register a{
+    display: flex;
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    font-size: .95rem;
+}
+
+#btn-login_register a:hover{
+    transform: scale(.9 , 1);
+}
